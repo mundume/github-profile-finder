@@ -3,6 +3,8 @@ class Ui {
         this.profile = document.getElementById('profile')
     }
 
+    //display profile in ui
+
     showProfile(user){
       this.profile.innerHTML = `
       <div class="card card-body mb-3">
@@ -34,4 +36,8 @@ class Ui {
 
 
     }
+    //clear profile
+   
+
+   //clear alert message
 }
